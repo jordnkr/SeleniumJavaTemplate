@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class BaseTest {
+public abstract class BaseTest {
     private static final String projectRoot = System.getProperty("user.dir");
     private static ChromeDriverService service;
     protected static Browser browser;
